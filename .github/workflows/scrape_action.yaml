@@ -26,7 +26,7 @@ jobs:
 
       - name: Run Scraper
         run: |
-          python scrape_floorsheet.py
+          python scrape_nepse.py
 
       - name: Commit and Push
         env:
